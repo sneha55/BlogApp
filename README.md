@@ -11,9 +11,9 @@ Place all the three .js files in a single folder and run the mongo server using 
 
 ### Description
 There are 5 API calls present in the file:
-1. To create Blog : In this there is an additional filter present where it will check if sign in reuired or not.If yes then it will check if username and password entered or not .
+1. To create Blog : In this API call there is an additional filter present where it will check if sign in required or not,if yes then it will check for username and password.If both are entered then only the blog gets created.
 
-2. To view all Blogs: In this a call back function is present where it will check if the add required is checked or not, if yes then the call back function is called present in functionsAdv.js and the body of the blog is displayed after the add is played for 10sec.In the mean time remaining blogs can be viewed.
+2. To view all Blogs: In this API call a call back function is present where it will check if the add required is checked or not, if yes then the call back function is called present in functionsAdv.js and the body of the blog is displayed after the add is played for 10sec.In the mean time remaining blogs can be viewed.
 
 3. To view based on id 
 
